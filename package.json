@@ -1,23 +1,17 @@
 {
-  "name": "demonode",
+  "name": "weather",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-     "start": "node index.js"
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "body-parser": "^1.18.3",
-    "express": "^4.16.3",    
     "apiai": "^4.0.3",
+    "body-parser": "^1.18.3",
+    "express": "^4.16.3",
     "request": "^2.88.0"
-
-  },
-  "engines": {
-    "node": "8.11.3",
-    "npm": "6.4.1"
   }
 }
